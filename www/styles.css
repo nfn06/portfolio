@@ -1,0 +1,30 @@
+/* Basic reset for the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+  
+#hero {
+  background-color: goldenrod;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hero-subtitle {
+  font-size: large;
+}
+
+#hero-cta {
+  font-size: larger;
+  border: 300px;
+  text-decoration: none;
+  color: white;
+  background-color: darkred;
+  padding: 5px;
+  border-radius: 8px;
+}
