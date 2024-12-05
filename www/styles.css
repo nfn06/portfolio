@@ -5,7 +5,8 @@
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-  
+
+/* Hero section */
 #hero {
   background-color: goldenrod;
   height: 100vh;
@@ -15,9 +16,13 @@
   text-align: center;
 }
 
+#hero-title {
+  font-size: 500%;
+}
+
 #hero-subtitle {
-  font-size: large;
-  margin-bottom: 10px;
+  font-size: 200%;
+  margin-bottom: 15px;
 }
 
 #hero-cta {
@@ -28,4 +33,40 @@
   background-color: darkred;
   padding: 5px;
   border-radius: 8px;
+  transition: 0.3s ease;
 }
+#hero-cta:hover{
+  background-color: black;
+}
+
+/* About me section */
+#aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.aboutme-content-container {
+  background-color: black;
+  color: white;
+  height: 50%;
+}
+
+.aboutme-content {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  max-width: 50%;
+  font-size: 150%;
+}
+
+.aboutme-bullets {
+  margin-left: auto;
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+  font-size: 150%;
+  justify-items: right;
+}
+
+/* About me section */
