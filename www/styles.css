@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
   
 #hero {
@@ -17,6 +17,7 @@
 
 #hero-subtitle {
   font-size: large;
+  margin-bottom: 10px;
 }
 
 #hero-cta {
