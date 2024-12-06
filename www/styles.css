@@ -29,27 +29,22 @@
   font-size: larger;
   border: 300px;
   text-decoration: none;
-  color: white;
-  background-color: darkred;
+  color: gold;
+  background-color: black;
   padding: 5px;
-  border-radius: 8px;
   transition: 0.3s ease;
 }
 #hero-cta:hover{
-  background-color: black;
+  background-color: darkred;
 }
 
 /* About me section */
 #aboutme {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
-}
-
-.aboutme-content-container {
   background-color: black;
   color: white;
-  height: 50%;
 }
 
 .aboutme-content {
@@ -63,10 +58,8 @@
 .aboutme-bullets {
   margin-left: auto;
   margin-top: 50px;
-  margin-right: 100px;
+  margin-right: 400px;
   margin-bottom: 50px;
   font-size: 150%;
   justify-items: right;
 }
-
-/* About me section */
