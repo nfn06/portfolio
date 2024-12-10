@@ -32,19 +32,16 @@
 
     <!-- Hero Section -->
     <section class="hero" id="about">
-      <img
-        src="assets/images/wfh_1.svg"
-        alt="noah"
-        loading="lazy"
-        class="hero-img"
-      />
+      <div class="hero-title">
+        <h1>Noah F. Nielsen</h1>
+        <p>Your next developer!</p>
+      </div>
       <div class="bio animate__animated animate__shakeX">
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia sed
-          dolorem fugit sapiente porro veniam pariatur dolore nostrum delectus
-          inventore tempore minus nemo, iste ullam illo laboriosam maiores
-          repudiandae quos!
+          Hello. My name is Noah, and im a Full Stack Developer in training.
+          I've worked with Frontend, Backend, Cloud and DevOps, for multiple clients
+          in both the public and private sector, as well as internaly.
         </p>
       </div>
     </section>
@@ -53,18 +50,18 @@
     <section class="more-about">
       <h2>More About Me</h2>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt ipsum,
-        autem deleniti cupiditate molestias quis unde quae totam porro dicta
-        iure animi inventore, veniam hic! Omnis nulla, delectus a voluptatibus
+        For the past years I have gained solid experience with backend OOP using a C#, JavaScript and PostgreSQL stack.
+        Today I'm especially interested in OOP best practices like SOLID, Clean Code, and 12 factor principles, as well as test-first,  dependency injection, and mocking.
+        On top of that I have good insights in database design and structure, enabling me to continuously optimise and improve the entire solutions performance.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-        nostrum dolor minus, libero delectus praesentium perferendis
+        When developing, I focus on building flexible, modular and reusable code, usualy for the cloud, whether serverless or containerized.
+        Further more i have experience from a DevOps consultancy, providing insight into the importance and benefits of Infrastructure-as-Code, Cl/CD, GitOps and Containerisation.
       </p>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-        consequuntur labore? Ea totam voluptas amet!
+        When not at work I enjoy playing piano and listening to music in general.
+        As a person i'm open minded with a possitive attitude, and well-liked among colleagues.
+        Great at cooperating and has a genuine desire to impress and perform.
       </p>
     </section>
 
@@ -77,20 +74,23 @@
           <div class="skills-wrapper">
             <div class="first-set animate__animated animate__pulse">
               <img
-                src="assets/icons/icons8-html-5.svg"
-                alt=""
+                src="assets/icons/Csharp.svg"
+                alt="C#"
+                title="C#"
                 loading="lazy"
                 class="icon icon-card"
               />
               <img
-                src="assets/icons/icons8-css3.svg"
-                alt=""
+                src="assets/icons/TypeScript.svg"
+                alt="TypeScript"
+                title="TypeScript"
                 loading="lazy"
                 class="icon icon-card"
               />
               <img
-                src="assets/icons/icons8-javascript.svg"
-                alt=""
+                src="assets/icons/PostgresSQL.svg"
+                alt="PostgresSQL"
+                title="PostgresSQL"
                 loading="lazy"
                 class="icon icon-card"
               />
@@ -98,20 +98,23 @@
     
             <div class="second-set animate__animated animate__pulse">
               <img
-                src="assets/icons/icons8-bootstrap.svg"
-                alt=""
+                src="assets/icons/AWS.svg"
+                alt="Amazon Web Services"
+                title="Amazon Web Services"
                 loading="lazy"
                 class="icon icon-card"
               />
               <img
-                src="assets/icons/icons8-react-native.svg"
-                alt=""
+                src="assets/icons/HashiCorp Terraform.svg"
+                alt="Terraform"
+                title="Terraform"
                 loading="lazy"
                 class="icon icon-card"
               />
               <img
-                src="assets/icons/icons8-git.svg"
-                alt=""
+                src="assets/icons/Bash.svg"
+                alt="Bash"
+                title="Bash"
                 loading="lazy"
                 class="icon icon-card"
               />
@@ -125,44 +128,38 @@
       <div class="projects-container">
         <div class="project-container project-card">
           <img
-            src="assets/images/expenseTracker.png"
-            alt="expense-tracker"
+            src="assets/images/berlingskemedia.png"
+            alt="berlingskemedia"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Expense Tracker</h3>
+          <h3 class="project-title">News Podcast Generator</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            An app which scrapes news sites like Berlingske and Weekend Avisen for audio articles, parses them to an rss-feed, and uploads the feed to an S3 bucket.
           </p>
         </div>
         <div class="project-container project-card">
           <img
-            src="assets/images/netflixClone.png"
-            alt="netflic-clone"
+            src="assets/images/fiskeristyrelsen.png"
+            alt="fiskeristyrelsen"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Netflix Clone</h3>
+          <h3 class="project-title">Load test and API</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            A load test for Agency Cloud platform endpoints, that showed the need for an improved API. Thus a REST API was made for async processing to remove the bottleneck.
           </p>
         </div>
         <div class="project-container project-card">
           <img
-            src="assets/images/greenyEarth.png"
-            alt="greeny-earth"
+            src="assets/images/logo-background.svg"
+            alt="techchapter"
             loading="lazy"
             class="project-pic"
           />
-          <h3 class="project-title">Greeny Earth</h3>
+          <h3 class="project-title">HeRo Project</h3>
           <p class="project-details">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
-            ratione vel inventore labore commodi modi quos culpa aut saepe!
-            Alias!
+            A resume-editing wizard for easy maintanence of resumes. In this project i took care of collection of data from word datasource, as well as entity relation model optimization. 
           </p>
         </div>
       </div>
@@ -173,8 +170,8 @@
       <h2>Get In Touch With Me</h2>
       <div class="contact-form-container">
         <div class="contact-form">
-          <form action="https://formspree.io/f/xyylngw" method="POST">
-            <div class="form-controll">
+          <form action="https://formspree.io/f/xzzbqvob" method="POST">
+            <!-- <div class="form-controll">
               <label for="name">Name</label>
               <input
                 type="text"
@@ -182,7 +179,7 @@
                 placeholder="Enter Your Name"
                 class="input-field"
                 required
-              />
+              /> -->
             <div class="form-control">
               <label for="email">Email</label>
               <input
@@ -217,58 +214,12 @@
       </div>
     </section>
 
-    <!-- Social accounts - Fixed to the right -->
-    <div class="socials">
-      <a href="#" target="_blank"
-        ><img
-          src="assets/icons/icons8-twitter-circled.gif"
-          alt="Twitter"
-          loading="lazy"
-          class="socicon"
-      /></a>
-      <a href="#" target="_blank"
-        ><img
-          src="assets/icons/icons8-instagram.gif"
-          alt="Instagram"
-          loading="lazy"
-          class="socicon"
-      /></a>
-      <a href="#" target="_blank"
-        ><img
-          src="assets/icons/icons8-linkedin-circled.gif"
-          alt="Linkedin"
-          loading="lazy"
-          class="socicon"
-      /></a>
-      <a href="#" target="_blank"
-        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
-      /></a>
-    </div>
-    <!-- Scroll to top -->
-
     <!-- Footer section -->
     <footer>
-      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">&copy; Copyright 2024</p>
       <p class="copy">
-        Built with &#x2661; by
-        <a href="https://twitter.com/koladechris" target="_blank"
-          >Kolade Chris (Ksound)</a
-        >
+        Built by Noah F. Nielsen
       </p>
     </footer>
-
-
-    <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
-
-    <!-- Ion icons scripts -->
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
   </body>
 </html>
